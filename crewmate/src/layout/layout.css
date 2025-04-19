@@ -1,0 +1,28 @@
+/* Layout styles */
+.app-container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 188px;
+    background-color: #4a4a4a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+  
+  /* Main content */
+  .main-content {
+    flex: 1;
+    padding-left: 40px;
+    display: flex;
+    margin-left: 188px; /* Matches the width of the sidebar */
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }

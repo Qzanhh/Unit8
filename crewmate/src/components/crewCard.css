@@ -1,0 +1,31 @@
+.crewmate-card {
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(56, 56, 56);
+}
+
+.blue{
+  background-color: #0000ff;
+} 
+
+.red{
+  background-color: #ff0000;
+}
+
+.green{
+  background-color: #00ff00;
+}
+.pink{
+  background-color: #ff69b4;
+}
+.orange{
+  background-color: #ffa500;
+}
+.yellow{
+  background-color: #ffff00;
+}
+.cyan{
+  background-color: #00ffff;
+}

@@ -1,0 +1,29 @@
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adds spacing between buttons */
+}
+
+.create-button,
+.delete-button {
+  width: 100%; /* Makes buttons take full width of the container */
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: #ff4d4d;
+  color: #ffffff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #e60000;
+}
+
+.delete-button:active {
+  background-color: #b30000;
+}

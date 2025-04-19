@@ -1,0 +1,125 @@
+.create-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: white;
+  }
+  
+  .creator-section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 30px 0;
+  }
+  
+  .color-options,
+  .name-options,
+  .speed-options {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .color-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .color-option {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 3px solid transparent;
+  }
+  
+  .color-option.selected {
+    border-color: white;
+  }
+  
+  .color-option.red {
+    background-color: #ff0000;
+  }
+  .color-option.blue {
+    background-color: #0000ff;
+  }
+  .color-option.green {
+    background-color: #00ff00;
+  }
+  .color-option.pink {
+    background-color: #ff69b4;
+  }
+  .color-option.orange {
+    background-color: #ffa500;
+  }
+  .color-option.yellow {
+    background-color: #ffff00;
+  }
+  .color-option.black {
+    background-color: #000000;
+  }
+  .color-option.white {
+    background-color: #ffffff;
+  }
+  .color-option.purple {
+    background-color: #800080;
+  }
+  .color-option.cyan {
+    background-color: #00ffff;
+  }
+  .color-option.lime {
+    background-color: #32cd32;
+  }
+  .color-option.brown {
+    background-color: #a52a2a;
+  }
+  
+  .crewmate-preview {
+    width: 120px;
+    height: 150px;
+    border-radius: 60px 60px 40px 40px;
+    position: relative;
+    margin: 20px auto;
+  }
+  
+  .visor {
+    position: absolute;
+    width: 70px;
+    height: 40px;
+    background-color: #99ccff;
+    border: 3px solid black;
+    border-radius: 20px;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .visor-reflection {
+    position: absolute;
+    width: 15px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    top: 5px;
+    left: 10px;
+  }
+  
+  .create-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .create-button:hover {
+    background-color: #45a049;
+  }
+  
